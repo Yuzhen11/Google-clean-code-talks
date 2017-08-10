@@ -146,6 +146,9 @@ testCharge() {
 }
 ```
 
+If you have 20 dependencies, you can not hide them from a nice-looking API. 
+So it's a design problem that you have lot's of dependencies and you shouldn't blame the API.
+
 ### Service Locator
 
 - aka Context
