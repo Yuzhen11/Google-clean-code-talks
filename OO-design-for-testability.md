@@ -141,7 +141,7 @@ testCharge() {
   queue = new OfflineQueue(db);
   ccProc = new CCProcessor(queue);
   CreditCard cc;
-  cc = new CreditCard("1232343241");
+  cc = new CreditCard("1232343241", ccProc);
   cc.charge(100).
 }
 ```
